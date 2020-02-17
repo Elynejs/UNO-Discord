@@ -1,0 +1,19 @@
+{
+  "name": "uno-discord",
+  "version": "1.0.0",
+  "description": "Uno bot discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "uno",
+    "discord",
+    "bot"
+  ],
+  "author": "Elynejs",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

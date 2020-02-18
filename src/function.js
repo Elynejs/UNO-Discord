@@ -1,9 +1,12 @@
 const func = {
+    target() {
+        // figure out target
+    },
     draw: (amount, target) => {
         // drawing mechanic
     },
-    target() {
-        // figure out target
+    reverse() {
+        // skip next player
     }
 };
 

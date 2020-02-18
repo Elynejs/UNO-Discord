@@ -4,7 +4,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
 const token = require('./token.json');
-const fs = require('fs');
 
 client.on('ready', () => {
     client.user.setActivity('UNO');
@@ -17,7 +16,13 @@ client.on('message', msg => {
 
     switch(command) {
     case 'start':
-        // not exactly sure yet
+        /*
+        - init deck
+        - distribute hands
+        - send player hands in MP 
+        - Make human play first
+        - send message to tell player game has started
+        */
         break;
     case 'help':
         // list of commands

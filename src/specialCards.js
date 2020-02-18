@@ -12,4 +12,10 @@ module.exports = class specialCards extends cards {
             fc.draw(this.amount, fc.target());
         }
     }
+
+    reverse() {
+        if (this.type == 'reverse') {
+            fc.reverse();
+        }
+    }
 };

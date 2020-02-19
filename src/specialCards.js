@@ -8,14 +8,11 @@ module.exports = class specialCards extends cards {
         this.amount = amount; // amount of card drawn, either "2", "4", or "0" for reverse cards
     }
 
-    draw() {
-        if (this.amount > 0) {
+    effect() {
+        if (this.type == 'drawing') {
             fc.draw(this.amount, fc.target());
         }
-    }
-
-    reverse() {
-        if (this.type == 'reverse') {
+        else if (this.type == 'reverse') {
             fc.reverse();
         }
     }

@@ -4,6 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
 const token = require('./token.json');
+const fc = require('./src/function.js');
 
 client.on('ready', () => {
     client.user.setActivity('UNO');
@@ -16,6 +17,7 @@ client.on('message', msg => {
 
     switch(command) {
     case 'start':
+        fc.createDeck(msg); // init deck with all normal cards
         /*
         - init deck
         - distribute hands

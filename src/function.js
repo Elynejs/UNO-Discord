@@ -23,8 +23,6 @@ const func = {
             for (let k=0;k<2;k++) {
                 const reverseCards = new specialCards(color[i], 98, 'deck', 'reverse', 0);
                 deck.push(reverseCards);
-            }
-            for (let l=0;l<2;l++) {
                 const plus2Cards = new specialCards(color[i], 99, 'deck', 'drawing', 2);
                 deck.push(plus2Cards);
             }

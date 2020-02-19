@@ -1,22 +1,20 @@
 const cards = require('./cards.js');
 const specialCards = require('./specialCards.js');
-const color = ['red', 'yellow', 'blue', 'green'];
 const fs = require('fs');
 
 const func = {
-    target() {
-        // figure out target
-    },
-    draw: (amount, target) => {
+    draw: (amount, target, event) => {
         // drawing mechanic
+        event.channel.send(`${target} has drawn ${amount} card(s).`);
     },
     reverse() {
         // skip next player
     },
     createDeck(event) {
+        const color = ['red', 'yellow', 'blue', 'green'];
         const deck = new Array();
         for (let i=0;i<4;i++) { // creating normal cards
-            for (let j=0;j<=10;j++) { // create 11 (0~10) numbered cards
+            for (let j=1;j<=10;j++) { // create 10 (1~10) numbered cards
                 const normalCard = new cards(color[i], j, 'deck');
                 deck.push(normalCard);
             }

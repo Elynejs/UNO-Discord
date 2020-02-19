@@ -14,7 +14,7 @@ const func = {
         const color = ['red', 'yellow', 'blue', 'green'];
         const deck = new Array();
         for (let i=0;i<4;i++) { // creating normal cards
-            for (let j=1;j<=10;j++) { // create 10 (1~10) numbered cards
+            for (let j=1;j<10;j++) { // create 10 (1~9) numbered cards
                 const normalCard = new cards(color[i], j, 'deck');
                 deck.push(normalCard);
             }
@@ -29,6 +29,12 @@ const func = {
         }
 
         event.channel.send('Deck has been created.');
+        event.channel.send({
+            files: [{
+                attachement: `./cardspng/${deck[this.randInt(0, deck.length - 1)].image}.png`,
+                name: `${deck[this.randInt(0, deck.length - 1)].name}`
+            }]
+        });
         fs.writeFile('deck.json', JSON.stringify(deck, undefined, 2), (err) => {
             if (err) throw err;
             console.log(deck);

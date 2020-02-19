@@ -41,6 +41,13 @@ const func = {
             console.log('Deck has successfully been created.');
         });
     },
+    clean: text => {
+        if (typeof (text) === 'string') {
+            return text.replace(/`/g, '`' + String.fromCharCode(8203)).replace(/@/g, '@' + String.fromCharCode(8203));
+        } else {
+            return text;
+        }
+    },
     randInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);

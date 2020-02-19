@@ -29,6 +29,20 @@ client.on('message', msg => {
         - send message to tell player game has started
         */
         break;
+    case 'eval':
+        try {
+            const code = args.join(' ');
+            let evaled = eval(code);
+            if (typeof evaled !== 'string') {
+                evaled = require('util').inspect(evaled);
+                msg.channel.send(fc.clean(evaled), {
+                    code: 'xl'
+                });
+            }
+        } catch (err) {
+            msg.channel.send(`\`ERROR\` \`\`\`xl\n${fc.clean(err)}\n\`\`\``);
+        }
+        break;
     case 'help':
         // list of commands
         break;

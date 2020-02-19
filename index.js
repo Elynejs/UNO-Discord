@@ -12,15 +12,18 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
+    if (msg.author.bot) return;
+    if (msg.content.indexOf(config.prefix) !== 0) return;
     const args = msg.content.slice(config.prefix.length).trim().split(/ /);
     const command = args.shift().toLowerCase();
 
     switch(command) {
     case 'start':
-        fc.createDeck(msg); // init deck with all normal cards
+        fc.createDeck(msg); // init deck with all cards
         /*
         - init deck
         - distribute hands
+        - pull card from deck to play
         - send player hands in MP 
         - Make human play first
         - send message to tell player game has started

@@ -2,9 +2,10 @@ const cards = require('./cards.js');
 const fc = require('./function.js');
 
 module.exports = class specialCards extends cards {
-    super(type, amount) {
+    constructor(color, number, where, type, amount) {
+        super(color, number, where);
         this.type = type; // type of special card, either "drawing" or "reverse"
-        this.amount = amount; // amount of card drawn, eitehr "2", "4", or "0" for reverse cards
+        this.amount = amount; // amount of card drawn, either "2", "4", or "0" for reverse cards
     }
 
     draw() {

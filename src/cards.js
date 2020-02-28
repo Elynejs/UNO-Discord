@@ -4,7 +4,7 @@ module.exports = class cards {
         this.number = number; // number on the corner of the card, 98 for reverse cards, 99 for +2 cards, 100 for +4 cards - Number
         this.where = where; // where is the card either "player", "computer" or "deck" - String
         this.command = `${color}${number}`;
-        this.image = `./cardspng/${this.color}${this.number}.png`;
+        this.image = `./src/cardspng/${this.color}${this.number}.png`;
         this.name = `${this.color}${this.number}`;
     }
 };

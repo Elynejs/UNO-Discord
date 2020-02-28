@@ -4,7 +4,7 @@
     "number": 1,
     "where": "deck",
     "command": "red1",
-    "image": "./cardspng/red1.png",
+    "image": "./src/cardspng/red1.png",
     "name": "red1"
   },
   {
@@ -12,7 +12,7 @@
     "number": 2,
     "where": "deck",
     "command": "red2",
-    "image": "./cardspng/red2.png",
+    "image": "./src/cardspng/red2.png",
     "name": "red2"
   },
   {
@@ -20,7 +20,7 @@
     "number": 3,
     "where": "deck",
     "command": "red3",
-    "image": "./cardspng/red3.png",
+    "image": "./src/cardspng/red3.png",
     "name": "red3"
   },
   {
@@ -28,7 +28,7 @@
     "number": 4,
     "where": "deck",
     "command": "red4",
-    "image": "./cardspng/red4.png",
+    "image": "./src/cardspng/red4.png",
     "name": "red4"
   },
   {
@@ -36,7 +36,7 @@
     "number": 5,
     "where": "deck",
     "command": "red5",
-    "image": "./cardspng/red5.png",
+    "image": "./src/cardspng/red5.png",
     "name": "red5"
   },
   {
@@ -44,7 +44,7 @@
     "number": 6,
     "where": "deck",
     "command": "red6",
-    "image": "./cardspng/red6.png",
+    "image": "./src/cardspng/red6.png",
     "name": "red6"
   },
   {
@@ -52,7 +52,7 @@
     "number": 7,
     "where": "deck",
     "command": "red7",
-    "image": "./cardspng/red7.png",
+    "image": "./src/cardspng/red7.png",
     "name": "red7"
   },
   {
@@ -60,7 +60,7 @@
     "number": 8,
     "where": "deck",
     "command": "red8",
-    "image": "./cardspng/red8.png",
+    "image": "./src/cardspng/red8.png",
     "name": "red8"
   },
   {
@@ -68,7 +68,7 @@
     "number": 9,
     "where": "deck",
     "command": "red9",
-    "image": "./cardspng/red9.png",
+    "image": "./src/cardspng/red9.png",
     "name": "red9"
   },
   {
@@ -76,7 +76,7 @@
     "number": 98,
     "where": "deck",
     "command": "redreverse0",
-    "image": "./cardspng/red98.png",
+    "image": "./src/cardspng/red98.png",
     "name": "red98",
     "type": "reverse",
     "amount": 0
@@ -86,7 +86,7 @@
     "number": 99,
     "where": "deck",
     "command": "reddrawing2",
-    "image": "./cardspng/red99.png",
+    "image": "./src/cardspng/red99.png",
     "name": "red99",
     "type": "drawing",
     "amount": 2
@@ -96,7 +96,7 @@
     "number": 98,
     "where": "deck",
     "command": "redreverse0",
-    "image": "./cardspng/red98.png",
+    "image": "./src/cardspng/red98.png",
     "name": "red98",
     "type": "reverse",
     "amount": 0
@@ -106,7 +106,7 @@
     "number": 99,
     "where": "deck",
     "command": "reddrawing2",
-    "image": "./cardspng/red99.png",
+    "image": "./src/cardspng/red99.png",
     "name": "red99",
     "type": "drawing",
     "amount": 2
@@ -116,7 +116,7 @@
     "number": 100,
     "where": "deck",
     "command": "blackdrawing4",
-    "image": "./cardspng/black100.png",
+    "image": "./src/cardspng/black100.png",
     "name": "black100",
     "type": "drawing",
     "amount": 4
@@ -126,7 +126,7 @@
     "number": 1,
     "where": "deck",
     "command": "yellow1",
-    "image": "./cardspng/yellow1.png",
+    "image": "./src/cardspng/yellow1.png",
     "name": "yellow1"
   },
   {
@@ -134,7 +134,7 @@
     "number": 2,
     "where": "deck",
     "command": "yellow2",
-    "image": "./cardspng/yellow2.png",
+    "image": "./src/cardspng/yellow2.png",
     "name": "yellow2"
   },
   {
@@ -142,7 +142,7 @@
     "number": 3,
     "where": "deck",
     "command": "yellow3",
-    "image": "./cardspng/yellow3.png",
+    "image": "./src/cardspng/yellow3.png",
     "name": "yellow3"
   },
   {
@@ -150,7 +150,7 @@
     "number": 4,
     "where": "deck",
     "command": "yellow4",
-    "image": "./cardspng/yellow4.png",
+    "image": "./src/cardspng/yellow4.png",
     "name": "yellow4"
   },
   {
@@ -158,7 +158,7 @@
     "number": 5,
     "where": "deck",
     "command": "yellow5",
-    "image": "./cardspng/yellow5.png",
+    "image": "./src/cardspng/yellow5.png",
     "name": "yellow5"
   },
   {
@@ -166,7 +166,7 @@
     "number": 6,
     "where": "deck",
     "command": "yellow6",
-    "image": "./cardspng/yellow6.png",
+    "image": "./src/cardspng/yellow6.png",
     "name": "yellow6"
   },
   {
@@ -174,7 +174,7 @@
     "number": 7,
     "where": "deck",
     "command": "yellow7",
-    "image": "./cardspng/yellow7.png",
+    "image": "./src/cardspng/yellow7.png",
     "name": "yellow7"
   },
   {
@@ -182,7 +182,7 @@
     "number": 8,
     "where": "deck",
     "command": "yellow8",
-    "image": "./cardspng/yellow8.png",
+    "image": "./src/cardspng/yellow8.png",
     "name": "yellow8"
   },
   {
@@ -190,7 +190,7 @@
     "number": 9,
     "where": "deck",
     "command": "yellow9",
-    "image": "./cardspng/yellow9.png",
+    "image": "./src/cardspng/yellow9.png",
     "name": "yellow9"
   },
   {
@@ -198,7 +198,7 @@
     "number": 98,
     "where": "deck",
     "command": "yellowreverse0",
-    "image": "./cardspng/yellow98.png",
+    "image": "./src/cardspng/yellow98.png",
     "name": "yellow98",
     "type": "reverse",
     "amount": 0
@@ -208,7 +208,7 @@
     "number": 99,
     "where": "deck",
     "command": "yellowdrawing2",
-    "image": "./cardspng/yellow99.png",
+    "image": "./src/cardspng/yellow99.png",
     "name": "yellow99",
     "type": "drawing",
     "amount": 2
@@ -218,7 +218,7 @@
     "number": 98,
     "where": "deck",
     "command": "yellowreverse0",
-    "image": "./cardspng/yellow98.png",
+    "image": "./src/cardspng/yellow98.png",
     "name": "yellow98",
     "type": "reverse",
     "amount": 0
@@ -228,7 +228,7 @@
     "number": 99,
     "where": "deck",
     "command": "yellowdrawing2",
-    "image": "./cardspng/yellow99.png",
+    "image": "./src/cardspng/yellow99.png",
     "name": "yellow99",
     "type": "drawing",
     "amount": 2
@@ -238,7 +238,7 @@
     "number": 100,
     "where": "deck",
     "command": "blackdrawing4",
-    "image": "./cardspng/black100.png",
+    "image": "./src/cardspng/black100.png",
     "name": "black100",
     "type": "drawing",
     "amount": 4
@@ -248,7 +248,7 @@
     "number": 1,
     "where": "deck",
     "command": "blue1",
-    "image": "./cardspng/blue1.png",
+    "image": "./src/cardspng/blue1.png",
     "name": "blue1"
   },
   {
@@ -256,7 +256,7 @@
     "number": 2,
     "where": "deck",
     "command": "blue2",
-    "image": "./cardspng/blue2.png",
+    "image": "./src/cardspng/blue2.png",
     "name": "blue2"
   },
   {
@@ -264,7 +264,7 @@
     "number": 3,
     "where": "deck",
     "command": "blue3",
-    "image": "./cardspng/blue3.png",
+    "image": "./src/cardspng/blue3.png",
     "name": "blue3"
   },
   {
@@ -272,7 +272,7 @@
     "number": 4,
     "where": "deck",
     "command": "blue4",
-    "image": "./cardspng/blue4.png",
+    "image": "./src/cardspng/blue4.png",
     "name": "blue4"
   },
   {
@@ -280,7 +280,7 @@
     "number": 5,
     "where": "deck",
     "command": "blue5",
-    "image": "./cardspng/blue5.png",
+    "image": "./src/cardspng/blue5.png",
     "name": "blue5"
   },
   {
@@ -288,7 +288,7 @@
     "number": 6,
     "where": "deck",
     "command": "blue6",
-    "image": "./cardspng/blue6.png",
+    "image": "./src/cardspng/blue6.png",
     "name": "blue6"
   },
   {
@@ -296,7 +296,7 @@
     "number": 7,
     "where": "deck",
     "command": "blue7",
-    "image": "./cardspng/blue7.png",
+    "image": "./src/cardspng/blue7.png",
     "name": "blue7"
   },
   {
@@ -304,7 +304,7 @@
     "number": 8,
     "where": "deck",
     "command": "blue8",
-    "image": "./cardspng/blue8.png",
+    "image": "./src/cardspng/blue8.png",
     "name": "blue8"
   },
   {
@@ -312,7 +312,7 @@
     "number": 9,
     "where": "deck",
     "command": "blue9",
-    "image": "./cardspng/blue9.png",
+    "image": "./src/cardspng/blue9.png",
     "name": "blue9"
   },
   {
@@ -320,7 +320,7 @@
     "number": 98,
     "where": "deck",
     "command": "bluereverse0",
-    "image": "./cardspng/blue98.png",
+    "image": "./src/cardspng/blue98.png",
     "name": "blue98",
     "type": "reverse",
     "amount": 0
@@ -330,7 +330,7 @@
     "number": 99,
     "where": "deck",
     "command": "bluedrawing2",
-    "image": "./cardspng/blue99.png",
+    "image": "./src/cardspng/blue99.png",
     "name": "blue99",
     "type": "drawing",
     "amount": 2
@@ -340,7 +340,7 @@
     "number": 98,
     "where": "deck",
     "command": "bluereverse0",
-    "image": "./cardspng/blue98.png",
+    "image": "./src/cardspng/blue98.png",
     "name": "blue98",
     "type": "reverse",
     "amount": 0
@@ -350,7 +350,7 @@
     "number": 99,
     "where": "deck",
     "command": "bluedrawing2",
-    "image": "./cardspng/blue99.png",
+    "image": "./src/cardspng/blue99.png",
     "name": "blue99",
     "type": "drawing",
     "amount": 2
@@ -360,7 +360,7 @@
     "number": 100,
     "where": "deck",
     "command": "blackdrawing4",
-    "image": "./cardspng/black100.png",
+    "image": "./src/cardspng/black100.png",
     "name": "black100",
     "type": "drawing",
     "amount": 4
@@ -370,7 +370,7 @@
     "number": 1,
     "where": "deck",
     "command": "green1",
-    "image": "./cardspng/green1.png",
+    "image": "./src/cardspng/green1.png",
     "name": "green1"
   },
   {
@@ -378,7 +378,7 @@
     "number": 2,
     "where": "deck",
     "command": "green2",
-    "image": "./cardspng/green2.png",
+    "image": "./src/cardspng/green2.png",
     "name": "green2"
   },
   {
@@ -386,7 +386,7 @@
     "number": 3,
     "where": "deck",
     "command": "green3",
-    "image": "./cardspng/green3.png",
+    "image": "./src/cardspng/green3.png",
     "name": "green3"
   },
   {
@@ -394,7 +394,7 @@
     "number": 4,
     "where": "deck",
     "command": "green4",
-    "image": "./cardspng/green4.png",
+    "image": "./src/cardspng/green4.png",
     "name": "green4"
   },
   {
@@ -402,7 +402,7 @@
     "number": 5,
     "where": "deck",
     "command": "green5",
-    "image": "./cardspng/green5.png",
+    "image": "./src/cardspng/green5.png",
     "name": "green5"
   },
   {
@@ -410,7 +410,7 @@
     "number": 6,
     "where": "deck",
     "command": "green6",
-    "image": "./cardspng/green6.png",
+    "image": "./src/cardspng/green6.png",
     "name": "green6"
   },
   {
@@ -418,7 +418,7 @@
     "number": 7,
     "where": "deck",
     "command": "green7",
-    "image": "./cardspng/green7.png",
+    "image": "./src/cardspng/green7.png",
     "name": "green7"
   },
   {
@@ -426,7 +426,7 @@
     "number": 8,
     "where": "deck",
     "command": "green8",
-    "image": "./cardspng/green8.png",
+    "image": "./src/cardspng/green8.png",
     "name": "green8"
   },
   {
@@ -434,7 +434,7 @@
     "number": 9,
     "where": "deck",
     "command": "green9",
-    "image": "./cardspng/green9.png",
+    "image": "./src/cardspng/green9.png",
     "name": "green9"
   },
   {
@@ -442,7 +442,7 @@
     "number": 98,
     "where": "deck",
     "command": "greenreverse0",
-    "image": "./cardspng/green98.png",
+    "image": "./src/cardspng/green98.png",
     "name": "green98",
     "type": "reverse",
     "amount": 0
@@ -452,7 +452,7 @@
     "number": 99,
     "where": "deck",
     "command": "greendrawing2",
-    "image": "./cardspng/green99.png",
+    "image": "./src/cardspng/green99.png",
     "name": "green99",
     "type": "drawing",
     "amount": 2
@@ -462,7 +462,7 @@
     "number": 98,
     "where": "deck",
     "command": "greenreverse0",
-    "image": "./cardspng/green98.png",
+    "image": "./src/cardspng/green98.png",
     "name": "green98",
     "type": "reverse",
     "amount": 0
@@ -472,7 +472,7 @@
     "number": 99,
     "where": "deck",
     "command": "greendrawing2",
-    "image": "./cardspng/green99.png",
+    "image": "./src/cardspng/green99.png",
     "name": "green99",
     "type": "drawing",
     "amount": 2
@@ -482,7 +482,7 @@
     "number": 100,
     "where": "deck",
     "command": "blackdrawing4",
-    "image": "./cardspng/black100.png",
+    "image": "./src/cardspng/black100.png",
     "name": "black100",
     "type": "drawing",
     "amount": 4

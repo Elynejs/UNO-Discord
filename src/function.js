@@ -10,7 +10,7 @@ const func = {
     reverse() {
         // skip next player
     },
-    createDeck(event) {
+    createDeck() {
         const color = ['red', 'yellow', 'blue', 'green'];
         const deck = new Array();
         for (let i=0;i<4;i++) { // creating normal cards
@@ -27,19 +27,12 @@ const func = {
             const plus4Cards = new specialCards('black', 100, 'deck', 'drawing', 4);
             deck.push(plus4Cards);
         }
-
-        event.channel.send('Deck has been created.');
-        event.channel.send({
-            files: [{
-                attachement: `./cardspng/${deck[this.randInt(0, deck.length - 1)].image}.png`,
-                name: `${deck[this.randInt(0, deck.length - 1)].name}`
-            }]
-        });
         fs.writeFile('deck.json', JSON.stringify(deck, undefined, 2), (err) => {
             if (err) throw err;
             console.log(deck);
             console.log('Deck has successfully been created.');
         });
+        return deck;
     },
     clean: text => {
         if (typeof (text) === 'string') {

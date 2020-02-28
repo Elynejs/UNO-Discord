@@ -2,6 +2,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const Attachment = new Discord.Attachment();
 const config = require('./config.json');
 const token = require('./token.json');
 const fc = require('./src/function.js');
@@ -11,6 +12,8 @@ client.on('ready', () => {
     console.log('Bot has been launched without issues!');
 });
 
+let deck = fc.createDeck(); // init deck with all cards
+
 client.on('message', msg => {
     if (msg.author.bot) return;
     if (msg.content.indexOf(config.prefix) !== 0) return;
@@ -18,8 +21,11 @@ client.on('message', msg => {
     const command = args.shift().toLowerCase();
 
     switch(command) {
-    case 'start':
-        fc.createDeck(msg); // init deck with all cards
+    case 'start': {
+        msg.channel.send('Deck has been created.');
+        msg.channel.send('',new Attachment(deck[0].image))
+            .then(console.log)
+            .catch(console.error);
         /*
         - init deck
         - distribute hands
@@ -29,6 +35,7 @@ client.on('message', msg => {
         - send message to tell player game has started
         */
         break;
+    }
     case 'eval':
         try {
             const code = args.join(' ');

@@ -22,10 +22,6 @@ client.on('message', msg => {
 
     switch(command) {
     case 'start': {
-        msg.channel.send('Deck has been created.');
-        msg.channel.send('',new Attachment(deck[0].image))
-            .then(console.log)
-            .catch(console.error);
         /*
         - init deck
         - distribute hands
